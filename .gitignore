@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models
+models/*.pkl
+
+# DVC cache
+.dvc/cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+
+.ipynb_checkpoints/
