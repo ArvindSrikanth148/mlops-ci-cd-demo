@@ -22,5 +22,5 @@ Thumbs.db
 .ipynb_checkpoints/
 
 # datasets
-data/raw/
-data/processed
+data/raw/*.csv
+data/processed/*.csv
