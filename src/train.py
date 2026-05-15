@@ -23,6 +23,5 @@ accuracy = accuracy_score(y_test, preds)
 
 print(f"Accuracy: {accuracy}")
 
-joblib.dump(model, "models/model.pkl")
 
 print("Model training complete")
