@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score
 # PAGE TITLE
 # -----------------------------
 
-st.title("MLOps CI/CD Demo")
+st.title("MLOps CI/CD Demo v2")
 
 st.write("Deployment using:")
 st.write("- GitHub Actions")
