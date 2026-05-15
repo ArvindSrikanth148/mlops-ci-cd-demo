@@ -24,6 +24,10 @@ jobs:
     - name: Install Dependencies
       run: |
         pip install -r requirements.txt
+        
+    - name: Install DVC
+      run: |
+        pip install "dvc[s3]"
 
     - name: Pull Dataset from DVC
       env:
