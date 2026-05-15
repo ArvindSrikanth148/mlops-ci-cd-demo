@@ -9,5 +9,4 @@ train_df, test_df = train_test_split(df, test_size=0.2, random_state=42)
 train_df.to_csv("data/processed/train.csv", index=False)
 test_df.to_csv("data/processed/test.csv", index=False)
 
-
 print("Preprocessing complete")
